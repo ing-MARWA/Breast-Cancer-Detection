@@ -4,7 +4,7 @@
 Breast cancer is a critical health concern, and early diagnosis is essential for effective treatment. This project focuses on developing a deep learning model for breast cancer detection and classification using ultrasound images. The model is designed to classify images into three categories: benign, malignant, and normal, aiding in early diagnosis and intervention.
 
 ### Dataset
-The dataset consists of ultrasound images of breast tissues, with each image labeled as benign, malignant, or normal. The dataset has been preprocessed and augmented to ensure diversity and improve the model's performance.You can download the Dataset from [here](kaggle datasets download -d aryashah2k/breast-ultrasound-images-dataset)
+The dataset consists of ultrasound images of breast tissues, with each image labeled as benign, malignant, or normal. The dataset has been preprocessed and augmented to ensure diversity and improve the model's performance.You can download the Dataset from [here](https://www.kaggle.com/datasets/aryashah2k/breast-ultrasound-images-dataset/data)
 
 ### Model Development
 The breast cancer detection model is built using a convolutional neural network (CNN) based on the Keras framework. The ResNet50 architecture is used as the base model, with additional custom layers for classification. The model has been trained using Adam optimizer and balanced class weights to mitigate the data imbalance. The training process involves utilizing image augmentation techniques to enhance the diversity of the dataset.
@@ -26,8 +26,3 @@ In addition to the model development and training, a Streamlit web app has been 
 This project showcases the application of deep learning in medical imaging for breast cancer detection. By integrating the trained model into a user-friendly web app, the project aims to provide accessible and convenient tools for healthcare professionals in their efforts to diagnose and treat breast cancer effectively.
 
 The code, dataset, and web app provide valuable resources for further research and development in the field of medical imaging and deep learning applications in healthcare.
-
-Feel free to explore the codebase, dataset, and web app to gain insights into breast cancer detection and classification. If you have any questions or feedback, please don’t hesitate to reach out. Thank you for your interest in this project.
-
----
-Hope this helps! If you need further assistance or modifications, please feel free to ask.  
